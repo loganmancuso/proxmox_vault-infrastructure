@@ -1,0 +1,10 @@
+# Tofu/Terraform
+.terraform
+*.tfstate.*
+.terraform.lock.hcl
+# Symlinks
+/main.tf
+/*.tfvars
+/hosts
+# Generated Password
+keys/
