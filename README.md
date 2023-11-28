@@ -22,7 +22,7 @@ to deploy this workflow link the environment tfvars folder to the root directory
   tofu plan
   tofu apply
 ```
-Unseal the vault if it is sealed or use the helper script in dependancy link 
+Unseal the vault if it is sealed or use the helper script in dependancy project
 ```bash
 # Unlocking the exisiting vault
 vault operator unseal $UNSEAL_KEY_1
