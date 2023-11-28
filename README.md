@@ -3,7 +3,7 @@
 This workflow sets up a terraform state with secrets available to downstream workflows 
 
 Depends on:
-loganmancuso_infrastructure/applications/hashicorp-vault
+loganmancuso_infrastructure/applications/hashicorp-vault>
 
 ## Vault Structure
 
