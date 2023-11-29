@@ -15,9 +15,7 @@ path of secrets in the vault will follow the pattern below
 ## Deployment
 to deploy this workflow link the environment tfvars folder to the root directory. 
 ```bash
-  ln -s env/main.tf
-  ln -s env/terraform.tfvars
-
+  ln -s env/* .
   tofu init .
   tofu plan
   tofu apply
