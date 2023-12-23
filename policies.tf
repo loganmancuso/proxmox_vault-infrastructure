@@ -38,21 +38,21 @@ data "vault_policy_document" "app" {
 }
 
 resource "vault_policy" "admin" {
-  name = "admin"
+  name   = "admin"
   policy = data.vault_policy_document.admin.hcl
 }
 
 resource "vault_policy" "shared" {
-  name = "shared"
+  name   = "shared"
   policy = data.vault_policy_document.shared.hcl
 }
 
 resource "vault_policy" "infra" {
-  name = "infra"
+  name   = "infra"
   policy = data.vault_policy_document.infra.hcl
 }
 
 resource "vault_policy" "app" {
-  name = "app"
+  name   = "app"
   policy = data.vault_policy_document.app.hcl
 }
